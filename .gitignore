@@ -2,3 +2,5 @@ models/training_curves.png
 models/vgg16_best.pth
 models/vgg16_final.pth
 pretrained/vgg16.pth
+data_original/
+data/
