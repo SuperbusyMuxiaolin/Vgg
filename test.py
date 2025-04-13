@@ -75,9 +75,20 @@ def test(model_path='./models/vgg16_best.pth', batch_size=4, output_dir='./resul
     
     # 生成分类报告
     report = classification_report(all_labels, all_preds, target_names=class_names)
-    print("\n分类报告:")
+    print("\n分类报告:") 
     print(report)
-    
+    # 将分类报告保存到output_dir
+    report_path = os.path.join(output_dir, 'classification_report.txt')
+    with open(report_path, 'w') as f:
+        f.write(f'总体准确率: {accuracy:.2f}%\n\n')
+        f.write('各类别准确率:\n')
+        for i, name in enumerate(class_names):
+            if class_total[i] > 0:
+                f.write(f'类别 {name}: {100 * class_correct[i] / class_total[i]:.2f}%\n')
+        f.write('\n分类报告:\n')
+        f.write(report)
+    print(f"分类报告已保存到: {report_path}")
+        
 
 if __name__ == '__main__':
     import argparse
