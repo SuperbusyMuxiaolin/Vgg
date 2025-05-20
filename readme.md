@@ -55,6 +55,7 @@ sudo apt-get install libxcb-xinerama0 libxcb-xinput0
 运行预处理脚本
 ```bash
 python data_preprocess.py
+
 ```
 ## 训练
 ```bash
