@@ -1,4 +1,4 @@
-总体准确率: 92.40%
+总体准确率: 92.50%
 
 各类别准确率:
 类别 circle: 90.09%
@@ -7,7 +7,7 @@
 类别 line: 97.80%
 类别 square: 90.43%
 类别 staggered: 87.28%
-类别 triangle: 89.70%
+类别 triangle: 90.56%
 类别 vformation: 98.28%
 
 分类报告:
@@ -17,11 +17,11 @@
       column       0.89      0.89      0.89       228
        cross       0.95      0.96      0.95       231
         line       0.98      0.98      0.98       227
-      square       0.85      0.90      0.87       230
+      square       0.86      0.90      0.88       230
    staggered       0.89      0.87      0.88       228
-    triangle       0.94      0.90      0.92       233
+    triangle       0.93      0.91      0.92       233
   vformation       0.97      0.98      0.98       232
 
-    accuracy                           0.92      1841
-   macro avg       0.92      0.92      0.92      1841
-weighted avg       0.92      0.92      0.92      1841
+    accuracy                           0.93      1841
+   macro avg       0.93      0.93      0.93      1841
+weighted avg       0.93      0.93      0.93      1841
