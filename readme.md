@@ -54,17 +54,17 @@ sudo apt-get install libxcb-xinerama0 libxcb-xinput0
 ```bash
 conda activate vgg
 cd Vgg # 代码根目录
-python train.py --epochs 50 --batch-size 16 --lr 0.0005 --valid-split 0.15 --save-dir ./custom_models
+python train.py --epochs 50 --batch-size 16 --lr 0.0005 --valid-split 0.15 --save-dir ./models 
 ```
 
 ## 测试
 测试单个阵型图片
 ```bash
-python predict_single.py --image ./path/to/your/image.jpg --model ./path/to/your/model.pth
+python predict_single.py --image ./data/test/circle1.jpg --model ./models/vgg16_final.pth
 ```
 
 测试整个数据集分类准确率
 ```bash
-Python test.py
+Python test.py --model ./models/vgg16_final.pth -- batchsize 16 --output ./results
 ```
 
