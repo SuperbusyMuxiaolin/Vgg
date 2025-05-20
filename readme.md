@@ -50,6 +50,12 @@ sudo apt-get update
 sudo apt-get install libxcb-xinerama0 libxcb-xinput0
 ```
 
+## 数据预处理
+将不同类别图片按照不同子文件夹形式放到`./data_original`
+运行预处理脚本
+```bash
+python data_preprocess.py
+```
 ## 训练
 ```bash
 conda activate vgg
