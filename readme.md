@@ -72,6 +72,6 @@ python predict_single.py --image ./data/test/circle1.jpg --model ./models/vgg16_
 
 测试整个数据集分类准确率
 ```bash
-Python test.py --model ./models/vgg16_final.pth -- batchsize 16 --output ./results
+python test.py --model ./models/vgg16_final.pth --batch-size 16 --output ./results
 ```
 
