@@ -36,7 +36,7 @@ python data_preprocess.py
 ```bash
 conda activate vgg
 cd Vgg # 代码根目录
-python train.py --epochs 50 --batch-size 16 --lr 0.0005 --valid-split 0.15 --save-dir ./models 
+python train.py --epochs 20 --batch-size 16 --lr 0.0005 --valid-split 0.15 --save-dir ./models 
 ```
 
 # 测试
