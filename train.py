@@ -203,10 +203,10 @@ if __name__ == '__main__':
     
     parser = argparse.ArgumentParser(description='VGG16 训练脚本')
     parser.add_argument('--epochs', type=int, default=10, help='训练轮次数')
-    parser.add_argument('--batch-size', type=int, default=8, help='批次大小')
+    parser.add_argument('--batch_size', type=int, default=8, help='批次大小')
     parser.add_argument('--lr', type=float, default=0.001, help='学习率')
-    parser.add_argument('--valid-split', type=float, default=0.1, help='验证集比例')
-    parser.add_argument('--save-dir', type=str, default='./models', help='模型保存目录')
+    parser.add_argument('--valid_split', type=float, default=0.1, help='验证集比例')
+    parser.add_argument('--save_dir', type=str, default='./models', help='模型保存目录')
     
     args = parser.parse_args()
     

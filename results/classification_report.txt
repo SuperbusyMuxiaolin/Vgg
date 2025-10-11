@@ -1,27 +1,27 @@
-总体准确率: 91.96%
+总体准确率: 93.49%
 
 各类别准确率:
-类别 circle: 90.09%
-类别 column: 88.60%
-类别 cross: 94.81%
-类别 line: 97.80%
-类别 square: 88.70%
-类别 staggered: 86.84%
-类别 triangle: 90.13%
-类别 vformation: 98.71%
+类别 circle: 94.35%
+类别 column: 89.92%
+类别 cross: 96.24%
+类别 line: 97.39%
+类别 square: 89.95%
+类别 staggered: 91.51%
+类别 triangle: 89.50%
+类别 vformation: 98.95%
 
 分类报告:
               precision    recall  f1-score   support
 
-      circle       0.92      0.90      0.91       232
-      column       0.88      0.89      0.88       228
-       cross       0.91      0.95      0.93       231
-        line       0.98      0.98      0.98       227
-      square       0.86      0.89      0.87       230
-   staggered       0.90      0.87      0.88       228
-    triangle       0.94      0.90      0.92       233
-  vformation       0.97      0.99      0.98       232
+      circle       0.94      0.94      0.94       372
+      column       0.93      0.90      0.91       377
+       cross       0.95      0.96      0.95       399
+        line       0.96      0.97      0.97       383
+      square       0.88      0.90      0.89       388
+   staggered       0.91      0.92      0.91       377
+    triangle       0.95      0.90      0.92       381
+  vformation       0.97      0.99      0.98       380
 
-    accuracy                           0.92      1841
-   macro avg       0.92      0.92      0.92      1841
-weighted avg       0.92      0.92      0.92      1841
+    accuracy                           0.93      3057
+   macro avg       0.94      0.93      0.93      3057
+weighted avg       0.94      0.93      0.93      3057
