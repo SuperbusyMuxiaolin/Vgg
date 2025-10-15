@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate SBOM (conda spec -> CycloneDX)",
+			"type": "shell",
+			"command": "C:/Users/lpl/miniforge3/Scripts/conda.exe",
+			"args": [
+				"run",
+				"-p",
+				"C:\\Users\\lpl\\miniforge3",
+				"--no-capture-output",
+				"python",
+				"tools/generate_sbom_from_conda_spec.py",
+				"-i",
+				"requirements.txt",
+				"-o",
+				"sbom"
+			],
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		}
+	]
+}

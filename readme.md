@@ -22,10 +22,9 @@ print(torch.cuda.is_available())
 
 -`torch.__version__`: 输出 PyTorch 的版本号，表示 PyTorch 已正确安装。
 
--`torch.cuda.is_available()`: 如果安装了 GPU 版本的 PyTorch，这个命令会返回 `True`，表示可以使用 GPU；否则返回 `False`。
+-`torch.cuda.is_available()`: 如果安装了 GPU 版本的 PyTorch，这个命令会返回 `True`，表示可以使用 GPU；否则返回 `False`
 
 # 数据预处理
-将不同类别图片按照不同子文件夹形式放到`./data_original`
 然后运行预处理脚本
 ```bash
 python data_preprocess.py
@@ -42,10 +41,10 @@ python train.py --epochs 20 --batch-size 16 --lr 0.0005 --valid-split 0.15 --sav
 # 测试
 测试单个阵型图片
 ```bash
-python predict_single.py --image ./data/test/circle1.jpg --model ./models/vgg16_final.pth
+python predict_single.py --image ./data/test/circle/circle_1.png --model ./models/vgg16_best.pth
 ```
 
-测试整个数据集分类准确率
+测试整个数据集分类准确率 
 ```bash
-python test.py --model ./models/vgg16_best.pth --batch-size 16 --output ./results
+python test.py --model ./models/vgg16_best.pth --batch_size 16 --output ./results
 ```

@@ -1,0 +1,1750 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2025-10-15T02:15:24Z",
+    "tools": [
+      {
+        "vendor": "Generated",
+        "name": "generate_sbom_from_conda_spec.py",
+        "version": "1.0.0"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "name": "Vgg"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "_openmp_mutex",
+      "version": "4.5",
+      "purl": "pkg:conda/_openmp_mutex@4.5?build=2_gnu",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "2_gnu"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "brotli",
+      "version": "1.1.0",
+      "purl": "pkg:conda/brotli@1.1.0?build=hfd05255_4",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfd05255_4"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "brotli-bin",
+      "version": "1.1.0",
+      "purl": "pkg:conda/brotli-bin@1.1.0?build=hfd05255_4",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfd05255_4"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "bzip2",
+      "version": "1.0.8",
+      "purl": "pkg:conda/bzip2@1.0.8?build=h0ad9c76_8",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h0ad9c76_8"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ca-certificates",
+      "version": "2025.10.5",
+      "purl": "pkg:conda/ca-certificates@2025.10.5?build=h4c7d964_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h4c7d964_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cairo",
+      "version": "1.18.4",
+      "purl": "pkg:conda/cairo@1.18.4?build=h5782bbf_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h5782bbf_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": "2025.8.3",
+      "purl": "pkg:conda/certifi@2025.8.3?build=pyhd8ed1ab_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "contourpy",
+      "version": "1.3.0",
+      "purl": "pkg:conda/contourpy@1.3.0?build=py39h2b77a98_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h2b77a98_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "cycler",
+      "version": "0.12.1",
+      "purl": "pkg:conda/cycler@0.12.1?build=pyhd8ed1ab_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "double-conversion",
+      "version": "3.3.1",
+      "purl": "pkg:conda/double-conversion@3.3.1?build=he0c23c2_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "he0c23c2_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "filelock",
+      "version": "3.13.1",
+      "purl": "pkg:conda/filelock@3.13.1?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "font-ttf-dejavu-sans-mono",
+      "version": "2.37",
+      "purl": "pkg:conda/font-ttf-dejavu-sans-mono@2.37?build=hab24e00_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hab24e00_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "font-ttf-inconsolata",
+      "version": "3.000",
+      "purl": "pkg:conda/font-ttf-inconsolata@3.000?build=h77eed37_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h77eed37_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "font-ttf-source-code-pro",
+      "version": "2.038",
+      "purl": "pkg:conda/font-ttf-source-code-pro@2.038?build=h77eed37_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h77eed37_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "font-ttf-ubuntu",
+      "version": "0.83",
+      "purl": "pkg:conda/font-ttf-ubuntu@0.83?build=h77eed37_3",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h77eed37_3"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fontconfig",
+      "version": "2.15.0",
+      "purl": "pkg:conda/fontconfig@2.15.0?build=h765892d_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h765892d_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fonts-conda-ecosystem",
+      "version": "1",
+      "purl": "pkg:conda/fonts-conda-ecosystem@1?build=0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fonts-conda-forge",
+      "version": "1",
+      "purl": "pkg:conda/fonts-conda-forge@1?build=0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fonttools",
+      "version": "4.59.1",
+      "purl": "pkg:conda/fonttools@4.59.1?build=py39h5769e4c_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h5769e4c_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "freetype",
+      "version": "2.14.1",
+      "purl": "pkg:conda/freetype@2.14.1?build=h57928b3_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h57928b3_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "fsspec",
+      "version": "2024.6.1",
+      "purl": "pkg:conda/fsspec@2024.6.1?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "graphite2",
+      "version": "1.3.14",
+      "purl": "pkg:conda/graphite2@1.3.14?build=hac47afa_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hac47afa_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "harfbuzz",
+      "version": "11.4.5",
+      "purl": "pkg:conda/harfbuzz@11.4.5?build=h5f2951f_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h5f2951f_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "icu",
+      "version": "75.1",
+      "purl": "pkg:conda/icu@75.1?build=he0c23c2_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "he0c23c2_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "importlib-resources",
+      "version": "6.5.2",
+      "purl": "pkg:conda/importlib-resources@6.5.2?build=pyhd8ed1ab_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "importlib_resources",
+      "version": "6.5.2",
+      "purl": "pkg:conda/importlib_resources@6.5.2?build=pyhd8ed1ab_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "jinja2",
+      "version": "3.1.4",
+      "purl": "pkg:conda/jinja2@3.1.4?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "joblib",
+      "version": "1.5.2",
+      "purl": "pkg:conda/joblib@1.5.2?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "kiwisolver",
+      "version": "1.4.7",
+      "purl": "pkg:conda/kiwisolver@1.4.7?build=py39h2b77a98_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h2b77a98_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "krb5",
+      "version": "1.21.3",
+      "purl": "pkg:conda/krb5@1.21.3?build=hdf4eb48_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hdf4eb48_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "lcms2",
+      "version": "2.17",
+      "purl": "pkg:conda/lcms2@2.17?build=hbcf6048_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hbcf6048_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "lerc",
+      "version": "4.0.0",
+      "purl": "pkg:conda/lerc@4.0.0?build=h6470a55_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h6470a55_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libblas",
+      "version": "3.9.0",
+      "purl": "pkg:conda/libblas@3.9.0?build=35_h5709861_mkl",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "35_h5709861_mkl"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libbrotlicommon",
+      "version": "1.1.0",
+      "purl": "pkg:conda/libbrotlicommon@1.1.0?build=hfd05255_4",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfd05255_4"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libbrotlidec",
+      "version": "1.1.0",
+      "purl": "pkg:conda/libbrotlidec@1.1.0?build=hfd05255_4",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfd05255_4"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libbrotlienc",
+      "version": "1.1.0",
+      "purl": "pkg:conda/libbrotlienc@1.1.0?build=hfd05255_4",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfd05255_4"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libcblas",
+      "version": "3.9.0",
+      "purl": "pkg:conda/libcblas@3.9.0?build=35_h2a3cdd5_mkl",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "35_h2a3cdd5_mkl"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libclang13",
+      "version": "21.1.2",
+      "purl": "pkg:conda/libclang13@21.1.2?build=default_ha2db4b5_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "default_ha2db4b5_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libdeflate",
+      "version": "1.24",
+      "purl": "pkg:conda/libdeflate@1.24?build=h76ddb4d_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h76ddb4d_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libexpat",
+      "version": "2.7.1",
+      "purl": "pkg:conda/libexpat@2.7.1?build=hac47afa_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hac47afa_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libffi",
+      "version": "3.4.6",
+      "purl": "pkg:conda/libffi@3.4.6?build=h537db12_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h537db12_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libfreetype",
+      "version": "2.14.1",
+      "purl": "pkg:conda/libfreetype@2.14.1?build=h57928b3_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h57928b3_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libfreetype6",
+      "version": "2.14.1",
+      "purl": "pkg:conda/libfreetype6@2.14.1?build=hdbac1cb_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hdbac1cb_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libgcc",
+      "version": "15.2.0",
+      "purl": "pkg:conda/libgcc@15.2.0?build=h1383e82_7",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h1383e82_7"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libglib",
+      "version": "2.84.3",
+      "purl": "pkg:conda/libglib@2.84.3?build=h1c1036b_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h1c1036b_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libgomp",
+      "version": "15.2.0",
+      "purl": "pkg:conda/libgomp@15.2.0?build=h1383e82_7",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h1383e82_7"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libhwloc",
+      "version": "2.12.1",
+      "purl": "pkg:conda/libhwloc@2.12.1?build=default_h88281d1_1000",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "default_h88281d1_1000"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libiconv",
+      "version": "1.18",
+      "purl": "pkg:conda/libiconv@1.18?build=hc1393d2_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hc1393d2_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libintl",
+      "version": "0.22.5",
+      "purl": "pkg:conda/libintl@0.22.5?build=h5728263_3",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h5728263_3"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libjpeg-turbo",
+      "version": "3.1.0",
+      "purl": "pkg:conda/libjpeg-turbo@3.1.0?build=h2466b09_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h2466b09_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "liblapack",
+      "version": "3.9.0",
+      "purl": "pkg:conda/liblapack@3.9.0?build=35_hf9ab0e9_mkl",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "35_hf9ab0e9_mkl"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "liblzma",
+      "version": "5.8.1",
+      "purl": "pkg:conda/liblzma@5.8.1?build=h2466b09_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h2466b09_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libpng",
+      "version": "1.6.50",
+      "purl": "pkg:conda/libpng@1.6.50?build=h7351971_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h7351971_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libsqlite",
+      "version": "3.50.4",
+      "purl": "pkg:conda/libsqlite@3.50.4?build=hf5d6505_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hf5d6505_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libtiff",
+      "version": "4.7.1",
+      "purl": "pkg:conda/libtiff@4.7.1?build=h550210a_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h550210a_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libwebp-base",
+      "version": "1.6.0",
+      "purl": "pkg:conda/libwebp-base@1.6.0?build=h4d5522a_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h4d5522a_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libwinpthread",
+      "version": "12.0.0.r4.gg4f2fc60ca",
+      "purl": "pkg:conda/libwinpthread@12.0.0.r4.gg4f2fc60ca?build=h57928b3_10",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h57928b3_10"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libxcb",
+      "version": "1.17.0",
+      "purl": "pkg:conda/libxcb@1.17.0?build=h0e4246c_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h0e4246c_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libxml2",
+      "version": "2.13.8",
+      "purl": "pkg:conda/libxml2@2.13.8?build=h741aa76_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h741aa76_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libxslt",
+      "version": "1.1.43",
+      "purl": "pkg:conda/libxslt@1.1.43?build=h25c3957_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h25c3957_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "libzlib",
+      "version": "1.3.1",
+      "purl": "pkg:conda/libzlib@1.3.1?build=h2466b09_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h2466b09_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "llvm-openmp",
+      "version": "21.1.2",
+      "purl": "pkg:conda/llvm-openmp@21.1.2?build=hfa2b4ca_3",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hfa2b4ca_3"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "markupsafe",
+      "version": "2.1.5",
+      "purl": "pkg:conda/markupsafe@2.1.5?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "3.9.4",
+      "purl": "pkg:conda/matplotlib@3.9.4?build=py39hcbf5309_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39hcbf5309_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "matplotlib-base",
+      "version": "3.9.4",
+      "purl": "pkg:conda/matplotlib-base@3.9.4?build=py39h5376392_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h5376392_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "mkl",
+      "version": "2024.2.2",
+      "purl": "pkg:conda/mkl@2024.2.2?build=h57928b3_16",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h57928b3_16"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "mpmath",
+      "version": "1.3.0",
+      "purl": "pkg:conda/mpmath@1.3.0?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "munkres",
+      "version": "1.1.4",
+      "purl": "pkg:conda/munkres@1.1.4?build=pyhd8ed1ab_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "networkx",
+      "version": "3.2.1",
+      "purl": "pkg:conda/networkx@3.2.1?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "1.26.3",
+      "purl": "pkg:conda/numpy@1.26.3?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "openjpeg",
+      "version": "2.5.4",
+      "purl": "pkg:conda/openjpeg@2.5.4?build=h24db6dd_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h24db6dd_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "openssl",
+      "version": "3.5.4",
+      "purl": "pkg:conda/openssl@3.5.4?build=h725018a_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h725018a_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "25.0",
+      "purl": "pkg:conda/packaging@25.0?build=pyh29332c3_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyh29332c3_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pcre2",
+      "version": "10.45",
+      "purl": "pkg:conda/pcre2@10.45?build=h99c9b8b_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h99c9b8b_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": "11.3.0",
+      "purl": "pkg:conda/pillow@11.3.0?build=py39hbad85af_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39hbad85af_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pip",
+      "version": "25.2",
+      "purl": "pkg:conda/pip@25.2?build=pyh8b19718_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyh8b19718_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pixman",
+      "version": "0.46.4",
+      "purl": "pkg:conda/pixman@0.46.4?build=h5112557_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h5112557_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pthread-stubs",
+      "version": "0.4",
+      "purl": "pkg:conda/pthread-stubs@0.4?build=h0e40799_1002",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h0e40799_1002"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pyparsing",
+      "version": "3.2.3",
+      "purl": "pkg:conda/pyparsing@3.2.3?build=pyhe01879c_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhe01879c_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "pyside6",
+      "version": "6.9.1",
+      "purl": "pkg:conda/pyside6@6.9.1?build=py39h5f4aa1c_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h5f4aa1c_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "python",
+      "version": "3.9.23",
+      "purl": "pkg:conda/python@3.9.23?build=h8c5b53a_0_cpython",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h8c5b53a_0_cpython"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:conda/python-dateutil@2.9.0.post0?build=pyhe01879c_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhe01879c_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "python_abi",
+      "version": "3.9",
+      "purl": "pkg:conda/python_abi@3.9?build=8_cp39",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "8_cp39"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "qhull",
+      "version": "2020.2",
+      "purl": "pkg:conda/qhull@2020.2?build=hc790b64_5",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hc790b64_5"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "qt6-main",
+      "version": "6.9.1",
+      "purl": "pkg:conda/qt6-main@6.9.1?build=h02ddd7d_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h02ddd7d_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "scikit-learn",
+      "version": "1.6.1",
+      "purl": "pkg:conda/scikit-learn@1.6.1?build=py39hdd013cc_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39hdd013cc_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": "1.13.1",
+      "purl": "pkg:conda/scipy@1.13.1?build=py39h1a10956_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h1a10956_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "setuptools",
+      "version": "80.9.0",
+      "purl": "pkg:conda/setuptools@80.9.0?build=pyhff2d567_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhff2d567_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "six",
+      "version": "1.17.0",
+      "purl": "pkg:conda/six@1.17.0?build=pyhe01879c_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhe01879c_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "sympy",
+      "version": "1.13.3",
+      "purl": "pkg:conda/sympy@1.13.3?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tbb",
+      "version": "2021.13.0",
+      "purl": "pkg:conda/tbb@2021.13.0?build=h18a62a1_3",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h18a62a1_3"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "threadpoolctl",
+      "version": "3.6.0",
+      "purl": "pkg:conda/threadpoolctl@3.6.0?build=pyhecae5ae_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhecae5ae_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tk",
+      "version": "8.6.13",
+      "purl": "pkg:conda/tk@8.6.13?build=h2c6b04d_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h2c6b04d_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "torch",
+      "version": "2.8.0+cu126",
+      "purl": "pkg:conda/torch@2.8.0+cu126?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "torchvision",
+      "version": "0.23.0+cu126",
+      "purl": "pkg:conda/torchvision@0.23.0+cu126?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tornado",
+      "version": "6.5.2",
+      "purl": "pkg:conda/tornado@6.5.2?build=py39h0802e32_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39h0802e32_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "typing-extensions",
+      "version": "4.12.2",
+      "purl": "pkg:conda/typing-extensions@4.12.2?build=pypi_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pypi_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "tzdata",
+      "version": "2025b",
+      "purl": "pkg:conda/tzdata@2025b?build=h78e105d_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h78e105d_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "ucrt",
+      "version": "10.0.26100.0",
+      "purl": "pkg:conda/ucrt@10.0.26100.0?build=h57928b3_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h57928b3_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "unicodedata2",
+      "version": "16.0.0",
+      "purl": "pkg:conda/unicodedata2@16.0.0?build=py39ha55e580_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "py39ha55e580_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vc",
+      "version": "14.3",
+      "purl": "pkg:conda/vc@14.3?build=h41ae7f8_31",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h41ae7f8_31"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vc14_runtime",
+      "version": "14.44.35208",
+      "purl": "pkg:conda/vc14_runtime@14.44.35208?build=h818238b_31",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h818238b_31"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "vcomp14",
+      "version": "14.44.35208",
+      "purl": "pkg:conda/vcomp14@14.44.35208?build=h818238b_31",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h818238b_31"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "wheel",
+      "version": "0.45.1",
+      "purl": "pkg:conda/wheel@0.45.1?build=pyhd8ed1ab_1",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_1"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xorg-libxau",
+      "version": "1.0.12",
+      "purl": "pkg:conda/xorg-libxau@1.0.12?build=h0e40799_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h0e40799_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "xorg-libxdmcp",
+      "version": "1.1.5",
+      "purl": "pkg:conda/xorg-libxdmcp@1.1.5?build=h0e40799_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "h0e40799_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zipp",
+      "version": "3.23.0",
+      "purl": "pkg:conda/zipp@3.23.0?build=pyhd8ed1ab_0",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "pyhd8ed1ab_0"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "zstd",
+      "version": "1.5.7",
+      "purl": "pkg:conda/zstd@1.5.7?build=hbeecb71_2",
+      "properties": [
+        {
+          "name": "cdx:conda:build",
+          "value": "hbeecb71_2"
+        },
+        {
+          "name": "cdx:ecosystem",
+          "value": "conda"
+        }
+      ]
+    }
+  ],
+  "serialNumber": "urn:uuid:cc77f744-9478-43f5-848e-0cd1be270b96"
+}

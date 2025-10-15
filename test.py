@@ -227,7 +227,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='VGG16 测试脚本')
     parser.add_argument('--model', type=str, default='./models/vgg16_best.pth', help='模型路径')
     parser.add_argument('--batch_size', type=int, default=8, help='批次大小')
-    parser.add_argument('--result', type=str, default='./results', help='结果保存路径')
+    parser.add_argument('--output', type=str, default='./results', help='结果保存路径')
 
     args = parser.parse_args()
-    test(model_path=args.model, batch_size=args.batch_size, output_dir=args.result)
+    test(model_path=args.model, batch_size=args.batch_size, output_dir=args.output)
