@@ -48,3 +48,7 @@ python predict_single.py --image ./data/test/circle/circle_1.png --model ./model
 ```bash
 python test.py --model ./models/vgg16_best.pth --batch_size 16 --output ./results
 ```
+
+## 其他
+# 生成sbom
+C:/Users/lpl/miniforge3/Scripts/conda.exe run -p C:\Users\lpl\miniforge3 --no-capture-output python tools/generate_sbom_from_conda_spec.py -i requirements.txt -o sbom
